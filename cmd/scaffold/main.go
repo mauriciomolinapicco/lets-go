@@ -32,12 +32,14 @@ func main() {
 	defaults: 0, false
 	*/
 
-	var str1 = "Hello" // inferred type
-	str2 := "World" //shorter declaration with inferred type
+	// var str1 = "Hello" // inferred type
+	// str2 := "World" //shorter declaration with inferred type
 
 	/* CONST */
-	const myConst string = "I am constant" //tengo que declararla en el momento con el valor. Constantes son inmutables
+	const myConst string = "I am a constant" //tengo que declararla en el momento con el valor. Constantes son inmutables
 
-
+	printMe()
 }
+
+
 
