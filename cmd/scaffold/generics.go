@@ -19,3 +19,5 @@ func main() {
 	fmt.Println(Max(10.5, 2.3))  // float64
 	fmt.Println(Max[int64](9, 4))
 }
+
+

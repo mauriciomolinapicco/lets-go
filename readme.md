@@ -6,3 +6,8 @@ Incluye ejemplos, ejercicios y notas.
 La idea es mantener todo simple, ordenado y fácil de revisar más adelante.
 
 Learning purpouse only
+
+
+API struct
+middleware1 -> next.ServeHTTP -> middleware2 -> ... -> HandlerFunc
+

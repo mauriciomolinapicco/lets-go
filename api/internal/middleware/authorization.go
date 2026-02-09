@@ -40,6 +40,6 @@ func Authorization(next http.Handler) http.Handler {
 			log.Error(UnAuthorizedError)
 			api.RequestErrorHandler(w, UnAuthorizedError)
 			return
-	}
+	} 
 }
 
