@@ -2,8 +2,8 @@ package handlers
 
 import (
 	"github.com/go-chi/chi"
-	chimiddle 	
-	"github.com/mauriciomolinapicco/lets-go/api/internal/middlewre"
+	chimiddle "github.com/go-chi/chi/middleware"
+	"github.com/mauriciomolinapicco/lets-go/api/internal/middleware"
 )
 
 

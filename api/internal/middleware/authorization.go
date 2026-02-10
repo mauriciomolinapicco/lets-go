@@ -41,5 +41,8 @@ func Authorization(next http.Handler) http.Handler {
 			api.RequestErrorHandler(w, UnAuthorizedError)
 			return
 	} 
+
+	next.ServeHTTP(w, r)
+	
 }
 
